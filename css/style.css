@@ -1,0 +1,252 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: white;
+}
+.mainPage{
+    width: 100%;
+    background:url(../images/background..jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 70vh;
+    background-attachment: fixed;
+}
+header{
+    padding: 30px 100px;
+    font-weight: 600;
+}
+main{
+    padding: 30px 100px;
+}
+.container70{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.aboutBack{
+    font-size: 16px;
+    margin-top: 10px;
+    padding-bottom: 25px!important;
+}
+.pre-q {
+    margin-top: 20px!important;
+}
+.pre-q a{
+    background-color: #d22030;
+    border-radius: 4px;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 11px;
+    color: white;
+}
+.pre-q a:hover{
+    background-color: #fdb73f; 
+}
+.content{
+    color: black;
+    margin-top: 50px;
+}
+.content h4{
+    margin-top: 15px;
+    color: #053d5c;
+}
+.content p{
+    color: #8ea0ba;
+    margin-top: 15px;
+}
+.w-80{
+    width: 90%;
+}
+.work{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: #053d5c;
+}
+hr{
+    display: inline!important;
+    border :5px solid #fdb73f;
+}
+.circle{
+    background:#fdb73f;
+    border-radius:50%;
+    padding: 10px;
+}
+.background{
+    background: #ebf4f7;
+
+}
+.padding{
+    padding: 80px 10px!important;
+    text-align: center;
+}
+.background h2{
+    color: #053d5c;
+}
+.background p{
+    color: #8ea0ba;
+}
+.mbb{
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+.w-50{
+    width: 35%!important;
+    text-align: center;
+    margin: 0 auto;
+}
+footer{
+    padding: 50px 5px;
+}
+footer p{
+    color: #8ea0ba;
+    margin-bottom: 1px!important;
+}
+footer h6{
+    color: #053d5c;
+}
+footer a{
+    text-decoration: none;
+    color: #8ea0ba;
+}
+footer a:hover{
+    color: #d22030;
+}
+.marginBottom{
+    margin-bottom: 30px!important;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    background-color: #fdb73f;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin-right: 2px;
+}
+.circles{
+    margin-left: 85px;
+    margin-bottom: 20px;
+}
+.line {
+    width: 350px;
+    height: 5px;
+    background-color: #fdb73f;
+    display: inline-block;
+    margin-right: 2px;
+}
+.circles{
+    margin-top: 50px;
+}
+.clr{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.clr h5{
+    color: #053d5c;
+}
+.clr p{
+    color: #8ea0ba;
+}
+@media (max-width:576px){
+    header{
+        padding: 20px 50px;
+    }
+    main{
+        padding: 50px ;
+    }
+    .full{
+        display: flex;
+    }
+    .circles{
+        width: 20%;
+        margin-top: 10px!important;
+    }
+    .clr{
+        width: 79%;
+        margin-top: 10px!important;
+    }
+    .circle {
+        width: 50px;
+        height: 50px;
+        background-color: #fdb73f;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        margin-right: 2px;
+    }
+    .circles{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .line {
+        width: 5px;
+        height: 100px;
+        background-color: #fdb73f;
+        display: inline-block;
+        margin-left: 20px;
+        text-align: center;
+    }
+    .w-50{
+        width: 100%!important;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .circle {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .line {
+        display: block;
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 10px;
+    }
+    .second{
+        margin-top: 20px!important;
+    }
+    .thrid{
+        margin-top: 30px!important;
+    }
+}
+@media (max-width:1020px)and (min-width:576px){
+    .mainPage{
+        height: 40vh;
+    }
+    .circle {
+        width: 50px;
+        height: 50px;
+        background-color: #fdb73f;
+        border-radius: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        margin-right: 2px;
+    }
+    .circles{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .line {
+        width: 180px;
+        height: 5px;
+        background-color: #fdb73f;
+        display: inline-block;
+        margin-right: 2px;
+    }
+
+}
